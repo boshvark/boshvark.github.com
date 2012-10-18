@@ -4,7 +4,7 @@
   <title><![CDATA[Boshvark Software]]></title>
   <link href="http://boshvark.github.com/atom.xml" rel="self"/>
   <link href="http://boshvark.github.com/"/>
-  <updated>2012-10-18T00:50:17-06:00</updated>
+  <updated>2012-10-18T01:17:09-06:00</updated>
   <id>http://boshvark.github.com/</id>
   <author>
     <name><![CDATA[Michael Thelen]]></name>
@@ -12,5 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[First post!]]></title>
+    <link href="http://boshvark.github.com/blog/2012/10/18/first-post/"/>
+    <updated>2012-10-18T00:59:00-06:00</updated>
+    <id>http://boshvark.github.com/blog/2012/10/18/first-post</id>
+    <content type="html"><![CDATA[<p>My name is Michael Thelen and I run Boshvark Software, LLC. We specialize in
+developing apps for iPhone, iPod Touch, and iPad. We also provide consulting
+services and application development for Mac OS X, Linux, and Windows. Our
+most popular application is <a href="http://zyzzyva.net/">Zyzzyva</a>, a cross-platform
+word study program used by top Scrabble&reg; players around the world.</p>
+
+<p>I&#8217;m excited to use this blog to discuss programming, consulting, running a
+small business, or whatever topics I find interesting in the world of
+computers and technology. I hope you enjoy it too.</p>
+]]></content>
+  </entry>
   
 </feed>
