@@ -37,14 +37,14 @@ paragraph in the code.
     // yeah, Source or whatever the Cardbox Ready thing is called.
 {% endcodeblock %}
 
-Today as I jumped back into the code, my present self thanked my 2am self for
-being so thoughtful. Obviously I was not fully coherent, but I was able to
-dump the contents of my brain before powering down. This saved me a lot of
-time I otherwise would have spent figuring out what the heck I was doing.
-
 One thing to note about this comment: it doesn't compile. I consistently use
 the all-caps phrase "START HERE", and I usually put it outside a comment. The
 next time I try to compile, big red errors will force me to read my note.
 Whenever you can easily force yourself to do the right thing, do it.
+
+Today as I jumped back into the code, my present self thanked my 2am self for
+being so thoughtful. Obviously I was not fully coherent, but I was able to
+dump the contents of my brain before powering down. This saved me a lot of
+time I otherwise would have spent figuring out what the heck I was doing.
 
 And that's why you always leave a note.
