@@ -5,12 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>First post! - Boshvark Software</title>
+  <title>That's why you always leave a note - Boshvark Software</title>
   <meta name="author" content="Michael Thelen">
 
   
-  <meta name="description" content="My name is Michael Thelen and I run Boshvark Software, LLC. We specialize in
-developing apps for iPhone, iPod Touch, and iPad. We also provide &hellip;">
+  <meta name="description" content="One of the nicest things you can do as a programmer is to leave detailed notes
+for the future programmers who must maintain your code. Especially &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +19,7 @@ developing apps for iPhone, iPod Touch, and iPad. We also provide &hellip;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://boshvark.github.com/blog/2012/10/18/first-post/">
+  <link rel="canonical" href="http://boshvark.github.com/blog/2012/10/22/thats-why-you-always-leave-a-note/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -68,7 +68,7 @@ developing apps for iPhone, iPod Touch, and iPad. We also provide &hellip;">
   
   <header>
     
-      <h1 class="entry-title">First Post!</h1>
+      <h1 class="entry-title">That's Why You Always Leave a Note</h1>
     
     
       <p class="meta">
@@ -84,7 +84,7 @@ developing apps for iPhone, iPod Touch, and iPad. We also provide &hellip;">
   
 
 
-<time datetime="2012-10-18T00:59:00-06:00" pubdate data-updated="true">Oct 18<span>th</span>, 2012</time>
+<time datetime="2012-10-22T23:50:00-06:00" pubdate data-updated="true">Oct 22<span>nd</span>, 2012</time>
         
          | <a href="#disqus_thread">Comments</a>
         
@@ -93,19 +93,63 @@ developing apps for iPhone, iPod Touch, and iPad. We also provide &hellip;">
   </header>
 
 
-<div class="entry-content"><p>My name is Michael Thelen and I run Boshvark Software, LLC. We specialize in
-developing apps for iPhone, iPod Touch, and iPad. We also provide consulting
-services and application development for Mac OS X, Linux, and Windows. Our
-most popular application is <a href="http://zyzzyva.net/">Zyzzyva</a>, a cross-platform
-word study program used by top Scrabble&reg; players around the world.</p>
+<div class="entry-content"><p>One of the nicest things you can do as a programmer is to leave detailed notes
+for the future programmers who must maintain your code. Especially since the
+most likely maintainer of your code is you.</p>
 
-<p>And by we, I mean me. Yeah, pretty much just me. I am also employed as a
-full-time software developer. I enjoy a good challenge and love learning new
-things, and I especially enjoy sharing what I&#8217;ve learned.</p>
+<p>If you&#8217;ve done anything complicated or non-obvious, leave an explanation of
+what you did and <em>why you did it</em>. If your implementation is incomplete or
+suboptimal, leave a detailed note about what should be done next. This is not
+a substitute for actual communication with members of your team, but it makes
+things so much nicer for the next person who touches the code.</p>
 
-<p>I&#8217;m excited to use this blog to discuss programming, consulting, productivity,
-small business, or whatever topics I find interesting in the world of
-computers and technology. I hope you enjoy it too.</p>
+<p>I&#8217;ve gotten in the habit of leaving myself a note whenever I need to stop what
+I&#8217;m doing, even if I only expect the interruption to last a few minutes. (When
+does that ever happen?) Sometimes the note is just a short sentence about what
+I was doing. Two nights ago, at 2am before going to bed, I left the following
+paragraph in the code.</p>
+
+<figure class='code'><figcaption><span>I am so thoughtful.  </span></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+</pre></td><td class='code'><pre><code class='cpp'><span class='line'>    <span class="n">START</span> <span class="n">HERE</span> <span class="o">---</span> <span class="p">(</span><span class="n">not</span> <span class="n">here</span> <span class="n">in</span> <span class="n">the</span> <span class="n">code</span> <span class="n">really</span> <span class="p">...)</span>
+</span><span class='line'>    <span class="c1">// I just finished updating this to work with the new QuizEngine API.</span>
+</span><span class='line'>    <span class="c1">// Things are not compiling, so get them compiling again with all the</span>
+</span><span class='line'>    <span class="c1">// QuizEngine changes.</span>
+</span><span class='line'>    <span class="c1">// Also, make sure we can load from an Anagrams quiz database, and that</span>
+</span><span class='line'>    <span class="c1">// the QuizForm is calling the correct code to update the database as the</span>
+</span><span class='line'>    <span class="c1">// quiz progresses.</span>
+</span><span class='line'>    <span class="c1">// Later, update things to work with Anagrams With Hooks, Hooks, and (oh</span>
+</span><span class='line'>    <span class="c1">// god help us) Word List Recall.</span>
+</span><span class='line'>    <span class="c1">// Oh, and rip out all the XML saving code too.</span>
+</span><span class='line'>    <span class="c1">// Oh yeah, and don&#39;t forget to save Search Spec to the quiz database. And</span>
+</span><span class='line'>    <span class="c1">// probably some other thing I&#39;m forgetting, like ... well, I forgot. Oh</span>
+</span><span class='line'>    <span class="c1">// yeah, Source or whatever the Cardbox Ready thing is called.</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Today as I jumped back into the code, my present self thanked my 2am self for
+being so thoughtful. Obviously I was not fully coherent, but I was able to
+dump the contents of my brain before powering down. This saved me a lot of
+time I otherwise would have spent figuring out what the heck I was doing.</p>
+
+<p>One thing to note about this comment: it doesn&#8217;t compile. I consistently use
+the all-caps phrase &#8220;START HERE&#8221;, and I usually put it outside a comment. The
+next time I try to compile, big red errors will force me to read my note.
+Whenever you can easily force yourself to do the right thing, do it.</p>
+
+<p>And that&#8217;s why you always leave a note.</p>
 </div>
 
 
@@ -128,15 +172,21 @@ computers and technology. I hope you enjoy it too.</p>
   
 
 
-<time datetime="2012-10-18T00:59:00-06:00" pubdate data-updated="true">Oct 18<span>th</span>, 2012</time>
+<time datetime="2012-10-22T23:50:00-06:00" pubdate data-updated="true">Oct 22<span>nd</span>, 2012</time>
       
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/programming/'>programming</a>
+  
+</span>
 
 
     </p>
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://boshvark.github.com/blog/2012/10/18/first-post/" data-via="boshvark" data-counturl="http://boshvark.github.com/blog/2012/10/18/first-post/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://boshvark.github.com/blog/2012/10/22/thats-why-you-always-leave-a-note/" data-via="boshvark" data-counturl="http://boshvark.github.com/blog/2012/10/22/thats-why-you-always-leave-a-note/" >Tweet</a>
   
   
   <div class="g-plusone" data-size="medium"></div>
@@ -149,8 +199,8 @@ computers and technology. I hope you enjoy it too.</p>
     
     <p class="meta">
       
+        <a class="basic-alignment left" href="/blog/2012/10/18/first-post/" title="Previous Post: First post!">&laquo; First post!</a>
       
-        <a class="basic-alignment right" href="/blog/2012/10/22/thats-why-you-always-leave-a-note/" title="Next Post: That's why you always leave a note">That's why you always leave a note &raquo;</a>
       
     </p>
   </footer>
@@ -250,8 +300,8 @@ computers and technology. I hope you enjoy it too.</p>
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://boshvark.github.com/blog/2012/10/18/first-post/';
-        var disqus_url = 'http://boshvark.github.com/blog/2012/10/18/first-post/';
+        var disqus_identifier = 'http://boshvark.github.com/blog/2012/10/22/thats-why-you-always-leave-a-note/';
+        var disqus_url = 'http://boshvark.github.com/blog/2012/10/22/thats-why-you-always-leave-a-note/';
         var disqus_script = 'embed.js';
       
     (function () {

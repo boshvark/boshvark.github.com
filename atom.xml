@@ -4,7 +4,7 @@
   <title><![CDATA[Boshvark Software]]></title>
   <link href="http://boshvark.github.com/atom.xml" rel="self"/>
   <link href="http://boshvark.github.com/"/>
-  <updated>2012-10-22T23:15:05-06:00</updated>
+  <updated>2012-10-22T23:50:33-06:00</updated>
   <id>http://boshvark.github.com/</id>
   <author>
     <name><![CDATA[Michael Thelen]]></name>
@@ -12,6 +12,71 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[That's why you always leave a note]]></title>
+    <link href="http://boshvark.github.com/blog/2012/10/22/thats-why-you-always-leave-a-note/"/>
+    <updated>2012-10-22T23:50:00-06:00</updated>
+    <id>http://boshvark.github.com/blog/2012/10/22/thats-why-you-always-leave-a-note</id>
+    <content type="html"><![CDATA[<p>One of the nicest things you can do as a programmer is to leave detailed notes
+for the future programmers who must maintain your code. Especially since the
+most likely maintainer of your code is you.</p>
+
+<p>If you&#8217;ve done anything complicated or non-obvious, leave an explanation of
+what you did and <em>why you did it</em>. If your implementation is incomplete or
+suboptimal, leave a detailed note about what should be done next. This is not
+a substitute for actual communication with members of your team, but it makes
+things so much nicer for the next person who touches the code.</p>
+
+<p>I&#8217;ve gotten in the habit of leaving myself a note whenever I need to stop what
+I&#8217;m doing, even if I only expect the interruption to last a few minutes. (When
+does that ever happen?) Sometimes the note is just a short sentence about what
+I was doing. Two nights ago, at 2am before going to bed, I left the following
+paragraph in the code.</p>
+
+<figure class='code'><figcaption><span>I am so thoughtful.  </span></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+</pre></td><td class='code'><pre><code class='cpp'><span class='line'>    <span class="n">START</span> <span class="n">HERE</span> <span class="o">---</span> <span class="p">(</span><span class="n">not</span> <span class="n">here</span> <span class="n">in</span> <span class="n">the</span> <span class="n">code</span> <span class="n">really</span> <span class="p">...)</span>
+</span><span class='line'>    <span class="c1">// I just finished updating this to work with the new QuizEngine API.</span>
+</span><span class='line'>    <span class="c1">// Things are not compiling, so get them compiling again with all the</span>
+</span><span class='line'>    <span class="c1">// QuizEngine changes.</span>
+</span><span class='line'>    <span class="c1">// Also, make sure we can load from an Anagrams quiz database, and that</span>
+</span><span class='line'>    <span class="c1">// the QuizForm is calling the correct code to update the database as the</span>
+</span><span class='line'>    <span class="c1">// quiz progresses.</span>
+</span><span class='line'>    <span class="c1">// Later, update things to work with Anagrams With Hooks, Hooks, and (oh</span>
+</span><span class='line'>    <span class="c1">// god help us) Word List Recall.</span>
+</span><span class='line'>    <span class="c1">// Oh, and rip out all the XML saving code too.</span>
+</span><span class='line'>    <span class="c1">// Oh yeah, and don&#39;t forget to save Search Spec to the quiz database. And</span>
+</span><span class='line'>    <span class="c1">// probably some other thing I&#39;m forgetting, like ... well, I forgot. Oh</span>
+</span><span class='line'>    <span class="c1">// yeah, Source or whatever the Cardbox Ready thing is called.</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Today as I jumped back into the code, my present self thanked my 2am self for
+being so thoughtful. Obviously I was not fully coherent, but I was able to
+dump the contents of my brain before powering down. This saved me a lot of
+time I otherwise would have spent figuring out what the heck I was doing.</p>
+
+<p>One thing to note about this comment: it doesn&#8217;t compile. I consistently use
+the all-caps phrase &#8220;START HERE&#8221;, and I usually put it outside a comment. The
+next time I try to compile, big red errors will force me to read my note.
+Whenever you can easily force yourself to do the right thing, do it.</p>
+
+<p>And that&#8217;s why you always leave a note.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[First post!]]></title>
